@@ -35,6 +35,7 @@ Sources:
 
 ### Hyperparameters
 
+```
 BUFFER_SIZE = int(1e6)  # replay buffer size
 BATCH_SIZE = 512        # minibatch size
 GAMMA = 0.99            # discount factor
@@ -42,12 +43,13 @@ TAU = 1e-3              # for soft update of target parameters
 LR_ACTOR = 1e-4         # learning rate of the actor
 LR_CRITIC = 1e-4        # learning rate of the critic
 WEIGHT_DECAY = 0.0001   # L2 weight decay
+```
 
 ### Results
 
 The environment was solved in 1200 episodes with an average reward of 30.001 over 100 consecutive episodes. The graph below shows the reward received in each episode.
 
-![](continuous control scores.png)
+![](continuous_control_scores.png)
 
 ### Future Ideas
 
